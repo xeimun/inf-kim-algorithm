@@ -2,7 +2,7 @@ package Sorting___Searching;
 
 import java.util.Scanner;
 
-public class eLRU {
+public class dLRU {
     public static void main(String[] args) {
         // 배열 + 삽입정렬
         Scanner kb = new Scanner(System.in);
