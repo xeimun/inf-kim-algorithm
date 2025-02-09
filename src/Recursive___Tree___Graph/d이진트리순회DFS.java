@@ -1,18 +1,18 @@
 package Recursive___Tree___Graph;
 
-class Node {
-    int data;
-    Node left;
-    Node right;
-
-    public Node(int num) {
-        data = num;
-        left = null;
-        right = null;
-    }
-}
-
 public class d이진트리순회DFS {
+    static class Node {
+        int data;
+        Node left;
+        Node right;
+
+        public Node(int num) {
+            data = num;
+            left = null;
+            right = null;
+        }
+    }
+
     Node root;
 
     public void DFS(Node root) {
